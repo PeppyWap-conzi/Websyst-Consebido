@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Paul Bryiant G. Consebido - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <body>
+  <div class="background-animation"></div>
+  <header class="hero">
+    
+
+  <header class="hero">
+    <div class="container">
+      <img src="profike.jpg" alt="Profile photo" class="profile-image float" />
+      <h1>Hello, I'm <span class="highlight">Paul Bryiant G. Consebido</span></h1>
+      <p>A passionate Third Year Information Technology Student</p>
+      <div class="scroll-buttons">
+  <button class="btn" id="scrollToExperienceBtn">View My Experience</button>
+  <button class="btn" id="scrollToServicesBtn">View My Services</button>
+</div>
+
+  </header>
+
+<section class="experience-section">
+  <div class="container">
+    <h2>My Experience</h2>
+
+
+    <div class="experience-list">
+    
+      <div class="experience-card">
+       
+        <h3>Freelance Graphic Designer</h3>
+        <p>Worked with various clients to create marketing materials and social media graphics.</p>
+        <img src= "100PHP MAY 2025.png" alt="Graphic Design Sample" class="experience-img" />
+      </div>
+
+      <div class="experience-card">
+        
+        <h3>Virtual Assistant Intern</h3>
+        <p>Managed emails, calendar scheduling, and online research for small businesses.</p>
+        
+</div>
+
+      </div>
+
+      <div class="experience-card">
+       
+      
+        <div class="experience-card">
+  
+  <h3>Back-end Developer (School Project)</h3>
+  <p>Developed and implemented server-side logic for a capstone project using PHP and MySQL. The project was managed locally using XAMPP and PHPMyAdmin for database management and testing.</p>
+<img src="xamp.png" alt="Back-end Project Sample" class="experience-img" />
+<div class="back-button">
+  <button class="btn" onclick="scrollToTop()">Back to Top</button>
+</div>
+
+    </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- Services Section -->
+  <section id="services" class="services-section">
+    <div class="container">
+      <h2>Services I Offer</h2>
+      <div class="services">
+        <div class="service-card">
+          <h3>Graphic Design</h3>
+          <p>Custom logos, banners, and branding materials.</p>
+        </div>
+        <div class="service-card">
+          <h3>Virtual Assistance</h3>
+          <p>Admin tasks, email management, scheduling, and more.</p>
+        </div>
+        <div class="service-card">
+          <h3>Web Development</h3>
+          <p>Modern, mobile-friendly websites built to impress.</p>
+          
+</div>
+<div class="back-button">
+  <button class="btn" onclick="scrollToTop()">Back to Top</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Paul Bryiant G. Consebido. All rights reserved.</p>
+  </footer>
+
+  <!-- Smooth Scroll Function -->
+  <script>
+  document.getElementById("scrollToExperienceBtn").addEventListener("click", function () {
+    document.querySelector(".experience-section").scrollIntoView({ behavior: "smooth" });
+  });
+
+  document.getElementById("scrollToServicesBtn").addEventListener("click", function () {
+    document.getElementById("services").scrollIntoView({ behavior: "smooth" });
+  });
+
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+
+</script>
+
+</body>
+</html>
